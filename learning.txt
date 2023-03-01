@@ -1,0 +1,3 @@
+	What is the difference in between id and class
+the main difference in between id and class is class can be asssign multiple to the element and id is only one will be assigned to the element, And class is call from . sign and id is call from #, and class and id is used to uniquly identify the elements.
+		How many types of selectors there in html and css

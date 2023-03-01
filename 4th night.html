@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="abc.php" method="post">
+        Username: <input type="text" name="username" id="username">
+        <label for="Username">Username :</label> 
+        <input type="text" name="username" id="usernmae" placeholder="Username">
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password">
+        <input type="submit" name="submit" value="login" id="btn-login" >
+        <label for="cpp">C++</label>
+        <input type="checkbox" name="c++" id="cpp">
+        <label for="java">Java</label>
+        <input type="checkbox" name="java" id="java" checked>
+        <label for="cs">Computer science</label>
+        <input type="radio" name="subject" id="cs" value="cs"> 
+        <label for="se">Software Engineering</label>
+        <input type="radio" name="subject" id="se" value="se">
+        <label for="it">Information Technology</label>
+        <input type="radio" name="subject" id="it" value="it">
+        <br><br>
+        <select>
+            <option>--Please Select--</option>
+            <option value="cs">Computer Science</option>
+            <option value="se">Software Engineering</option>
+            <option value="it">Information technology</option>
+        </select>
+
+    </form><br><br>
+
+    <form>
+        <fieldset>
+            <legend>Chose your Favorite Actor</legend>
+            <input type="radio" name="actor" id="sk" value="sk">
+            <label for="sk">Shah Rukh Khan</label><br>
+            <input type="radio" name="actor" value="salmank" id="salmank">
+            <label for="salmank">Salman Khan</label><br>
+            <input type="radio" name="actor" value="ak" id="ak">
+            <label for="ak">Amir Khan</label>
+        </fieldset>
+    </form>
+    <br>
+    <button>submit</button>
+    <!-- Form tag is used for define a form in a table-->
+
+    <!-- the action attribute is when we click on submit button the action will redirect you into the specific page which we should define in the action attribute-->
+
+    <!-- The method="post" attribute is used for post the form data into specific database or the post is not shown in the url and the method="get" is shwon in the url -->
+
+    <!-- label tag is very important for identifying the specific input tag in designing/css I used both for pratice-->
+
+    <!-- for attribute is used for physical connection of the input type in this for attribute we have to place the value of id of the coressponding input field you can check the connection in these two by once click on input field and the mouse cursor will be go inside the input field and then click on the label in which we used the for attribute through this process the same work will be done the courser will in to the input field which means that they are physically conected to each other-->
+
+    <!-- input tag is used for taking input from the user inside the form-->
+
+    <!-- checked attribute of the input field is used for default checked in the output-->
+
+    <!-- input attribute value in the radio input is used for when we put some value in the intput type radio the user select one of them so the user see the front end for the backend the value is going to submit on the server which show that the user is click on that value input if the value is not giving into the radion button the all text will be going to the server-->
+
+    <!--The difference in between <input type="submit"> button and <button> tag is the input type submit should be inside the form tag and button tag is anywhere in the page the work of both is same to submit something-->
+    
+    <!-- Select tag is used for dropdown menu in the select tag we should used multiple option tags-->
+
+    <!--The fieldset tag is used for draw a box around the related elements or form and the legend tag is used for the title of that box or form-->
+</body>
+</html>
