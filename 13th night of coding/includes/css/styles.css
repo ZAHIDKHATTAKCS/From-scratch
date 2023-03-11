@@ -1,0 +1,220 @@
+/* 
+    primary color:skyblue;
+    secondary color: red;
+    text color: black;
+    heading color: black;
+    font-size: 22px;
+*/
+div#container{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+/* Start Header */
+header{
+    width: 100%;
+    height: 76px;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+header span#title{
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+header span#slogan{
+    clear: both; 
+    /* clear both is used for when there are two or more elements and they are not in that form in which you define so you have to use clear both property to clear its defining in simple words clear both property is used when we create two elements like heading paraghraps and we make them float left it means they are come to left but one after each and we want to do 1 is upper and the second one is after that mean in second row we can say so we have to use clear both and float left also with that  */
+    float: left;
+    padding-left: 50px;
+    font-size: 20px;
+} 
+header div#search{
+    float: right;
+    position: relative;
+    top: -1px;
+}
+header div#search input#namefield{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}
+header div#search input#namefield:focus{
+    border: 3px solid red;
+}
+/* focus property is used for when we just take the mouse to the search field then it will be apply focus will apply when we click on that particular part and hover is apply when we just hover the mouse into that particular part of code*/
+header div#search input#btn-search{
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    font-weight: bold;
+}
+header div#search input#btn-search:hover{
+    border-radius: 5px;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+/* End of header */
+
+/* Start of Navigations */
+nav{
+    background-color: skyblue;
+    width: 100%;
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    /* to remove the bullets of list */
+    padding-top: 14px;
+    padding-left: 60px;
+}
+nav ul li{
+        padding: 80px;
+        display: inline;
+   }
+nav ul li a{
+    font-size: 25px;
+    padding: 9px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+aside{
+    margin-top: 5px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding-bottom: 20px;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+
+}
+aside ul li a{
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    background: skyblue;
+    border-radius: 7px;
+}
+/* you can pick a color from logo by using paint editor by just open the pic in paint and select the pen option and click on the color which you want to find */
+aside ul li a:hover{
+    color: white;
+}
+
+/* end of aside */
+
+/* start of products */
+div#products{
+    height: 960px;
+    width: 1005px;
+    margin-top: -250px;
+    margin-left: 250px;
+    font-size: 22px;
+}
+div#products .card{
+    width: 310px;
+    height: 455px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid skyblue;
+    float: left;
+    background-color: white;
+
+}
+div#products .card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(23, 117, 154, 0.997);
+}
+/* Image of 1st card */
+div.card #image1{
+    width: 300px;
+}
+/* Image of 2nd card */
+div.card #image2{
+    width: 285px;
+}
+/* Image of 3rd card */
+div.card #image3{
+    width: 300px;
+    height: 284px;
+}
+/* Image of 4th card */
+div.card #image4{
+    width: 285px;
+}
+/* Image of 5th card */
+div.card #image5{
+    padding-top: 33px;
+    width: 310px;
+    height: 250px;
+}
+/* Image of 6th card */
+div.card #image6{
+    padding-top: 47px;
+    width: 280px;
+    height: 250px;
+}
+/* End of all images */
+div.card h3{
+    text-align: center;
+    font-weight: bold;
+}
+div.card p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+div.card .price{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+div.card button{
+    margin-top: 19px;
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(135, 207, 235, 0.448);
+    border: none;
+
+}
+div.card button:hover{
+    width: 100%;
+    font-size: large;
+    color: blue;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+/* End of 1st card */
+
+
+
+/* Footer */
+footer{
+    padding: 5px;
+    background-color: skyblue;
+}
+footer p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
