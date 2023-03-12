@@ -1,0 +1,20 @@
+// For create a variable we use $name :
+
+// lets create a variable of color
+
+$color:red;
+
+// and after creating a variable we have to use it so
+
+p {
+    color: $color;
+}
+h1{
+    color: $color;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
