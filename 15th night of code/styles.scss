@@ -1,0 +1,50 @@
+@import './partials/variables';
+@import './partials/mixins';
+// @import is used for import the external
+
+*{
+    margin: 0;
+}
+
+
+
+// and after creating a variable we have to use it so
+
+p {
+    @include mixin1;
+    // variable color
+    // color: $borderc;
+    font-size: 20px;
+}
+h1{
+    @include mixin2(yellow);
+}
+// start navebar
+// we used nested
+nav {
+    border: 3px solid red;
+    background-color: $SecondaryColor;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline;
+            padding: 120px;
+            text-align: center;
+            font-size: 25px;
+            
+            a{
+                text-decoration: none;
+                color: black;
+
+                &:hover{
+                    color: red;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+// End of navbar
