@@ -1,0 +1,15 @@
+// this mixin is without peramerters
+@mixin mixin1{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid red ;
+    background-color: lightblue;
+}
+@mixin mixin2($color){
+    color: $color;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid red ;
+    background-color: lightblue;
+}
