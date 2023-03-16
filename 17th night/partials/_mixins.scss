@@ -1,0 +1,21 @@
+// this mixin is without peramerters
+@mixin mixin1{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid red ;
+    background-color: lightblue;
+}
+@mixin mixin2($color){
+    color: $color;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid red ;
+    background-color: lightblue;
+}
+// when will we define a color in paramater of the mixin thats means that this will be the default color
+@mixin mixin3($color:yellow){
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}

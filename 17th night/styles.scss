@@ -1,0 +1,73 @@
+@import './partials/variables';
+@import './partials/mixins';
+// @import is used for import the external
+
+*{
+    margin: 0;
+}
+
+
+
+// and after creating a variable we have to use it so
+
+p {
+    @include mixin1;
+    // variable color
+    // color: $borderc;
+    font-size: 20px;
+}
+h1{
+    @include mixin2(yellow);
+}
+// start navebar
+// we used nested
+nav {
+    border: 3px solid red;
+    // we just create a seondarycolor variable in the varibales file that's why we use it there now.
+    background-color: $SecondaryColor;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline;
+            padding: 120px;
+            text-align: center;
+            font-size: 25px;
+            
+            a{
+                text-decoration: none;
+                color: black;
+
+                &:hover{
+                    color: red;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+// End of navbar
+
+button{
+    color: black;
+    border: 2px dashed black;
+    background-color: lightcoral;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50%;
+    &:hover{
+        color: red;
+        background-color: lightgreen;
+        cursor: pointer;
+    }
+}
+.button2{
+    // extend is used for applying the predfined properties we can also override some of the predefined properties just write down what property is to override just like given below
+    @extend button;
+    // now the color property will be override with the extended one
+    color: yellow; 
+
+}
+// @extend property is used for applying all the predefined properties to apply on new element we have to define the properties once
