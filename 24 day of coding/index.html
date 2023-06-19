@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- Note you have the internet for using CDN -->
+
+    <!-- add javascript ,Jquery and bootstrap through using CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"         crossorigin="anonymous"></script>
+
+    <!-- add bootstrap CSS using CDN (Content Delivery Network) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>    
+    <div class="container-fluid">
+
+         <!-- we can create just multiple rows or div just by write code div*4 we can also create 
+        multiple rows by just write .row*5 -->
+        <div class="row">
+            <h1>zahid khattak</h1>&nbsp;
+            <!-- h1 and h2 classes is used to change the text into h1 h2 etc in bootstrap -->
+            <p class="h1">this is p tag </p>
+        </div>        
+        
+        <div class="row">
+            <p class="h2">this is p2 tag</p>
+        </div>
+        
+        <div class="row">
+            <!-- display-3 is used to show the text big in the screen values are in range 1-6 -->
+            <span class="display-3">zahid khattak</span><br>
+            <p class="display-1">independence day</p>
+        </div>
+
+
+        <!-- q is used for add the content in double qoutes -->
+        <q>zahidkhattak</q>
+
+        <!-- blockquote is used for when someone tells something -->
+        <p class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non impedit</p>
+
+        <!--  text-uppercase class is usde for change text to uppercase -->
+        <!-- this is actually good experince when client say to remove upper case then we checked out it all code where i write the uppercase for this if we use class of uppercase we can search it easily -->
+        <p class="text-uppercase">Lorem ipsum dolor sit.</p>
+        <p class="text-lowercase">Lorem ipsum dolor sit amet.</p>
+        <p class="text-capitalize">Lorem, ipsum dolor.</p>
+
+        <!-- start of jumbotron -->
+        <div class="jumbotron">
+            <div class="display-2 text-capitalize">
+                echo tech
+                <!-- lead class is used for slogan actually we can use it anywhere but good practice is to use in jumbtron -->
+                <div class="lead">this is slogan</div>
+            </div>
+        </div>
+
+
+        <!-- font-weight-bold class is used for bold the text -->
+        <div class="font-weight-bold">Computer</div>
+
+        <!-- font-italic class is used to change the text to italic -->
+        <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae in eum.</p>
+
+        <!-- text-right left is used to change the text position -->
+        <div class="text-right">zahid</div>
+
+        <!-- this is all about typography mean all about text -->
+    </div>
+
+
+    <!-- start of table inside jumbotron -->
+    <div class="jumbotron">
+        <p class="text-capitalize text-center text-danger h3">Start of table and use its all properties</p>
+
+        <!-- table-borderless table-dark table-primary table-warning table-sm(to show small) table-responsive(men for all) table-responsive-md(mean only for medium screens) table-responsive-sm(eman responsive only for small screens) etc all properties of table-->
+        <table class="table table-hover table-stripped table-bordered">
+
+            <!-- to keep the same color over table hover property you have to use thead-dark for thead of the table -->
+            <thead class="thead-dark">
+                <tr>
+                    <th class="text-capitalize">#</th=>
+                    <th class="text-capitalize">name</th>
+                    <th class="text-capitalize">roll no</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- to change the color of the row or specific content we have to use table-danger or any type of color we want -->
+                <tr>
+                    <td class="text-bold">1</td>
+                    <td class="text-capitalize">a</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="text-bold">2</td>
+                    <td class="text-capitalize">b</td>
+                    <td class="table-success">2</td>
+                </tr>
+                <tr class="table-primary">
+                    <td class="text-bold">3</td>
+                    <td class="text-capitalize">c</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <caption>List of the students</caption>
+
+        <!-- End of the table -->
+    </div> 
+    <!-- End of jumbotron -->
+
+    
+
+
+</body>
+</html>
