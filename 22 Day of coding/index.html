@@ -79,15 +79,21 @@
 <div class="conatiner">
 
     <div class="container">
+        
         <!-- Start of all buttons -->
         <button class="btn btn-lg btn-primary">Click</button>
         <button class="btn btn-secondary btn-lg">Secondary</button>
         <button class="btn btn-info btn-lg">Info</button>
+
         <!-- Disabled means to disable the click on button mean no one can click on button -->
         <button class="btn btn-warning btn-lg" disabled>warning</button>
-        <button class="btn btn-dark btn-lg">Dark</button>
+        <button class="btn btn-dark btn-lg disabled">Dark</button>
         <button class="btn btn-danger btn-lg">Danger</button>
         <button class="btn btn-light btn-lg">Click here</button>
+
+        <!-- Start of animated button !! note span is the inline container we have to use it when we just want to add icons etc.-->
+        <button type="button" class="btn btn-outline-info btn-lg">Click <span class="spinner-border spinner-border-sm"></span></button>
+        <button class="btn btn-outline-danger btn-lg ">click here! <span class="spinner-grow spinner-grow-lg"></span></button>
         <br><br>
 
         <!-- we can also create a disable link but we have to make it bootstrap btn -->
