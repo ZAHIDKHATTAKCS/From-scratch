@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>day 25 of coding</title>
+</head>
+<body>
+    <br><br>
+
+    <div class="container" style="border: 2px solid slateblue; border-radius: 20px;">
+        <br>
+
+        <div class="container" style="border: 1px solid blue;"><br>
+            <p class="text-capitalize text-center text-danger h5">start of list and it's item</p>
+                        <!-- start of list -->
+            <ul class="list-group">
+                <li class="list-group-item">click here 1</li>
+                <li class="list-group-item">click here 2</li>
+                <li class="list-group-item active">click here 3 <span class="badge bg-success">34</span></li>
+                <li class="list-group-item">click here 4</li>
+            </ul><br>
+        </div>
+        <br><br>
+
+
+        <!-- start of dropdowns -->
+
+        <div class="contaienr" style="border: 1px solid blue;"><br>
+        
+        
+            <!-- dropdown list 1 -->
+            <div class="row">
+                <div class="dropdown col col-md-6">&nbsp;
+                    <button type="button" class="btn btn-outline-primary btn-lg dropdown-toggle text-capitalize" data-toggle="dropdown" data-bs-toggle="dropdown">click here</button><br>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a class="dropdown-item" href="#">link1</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item  active" href="#">link2</a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item disabled" href="#">link3</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">link4</a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" href="#">link5</a>
+                        </li>
+                    </ul><br>
+                    &nbsp;
+                </div>
+                    <!-- end of dropdown list 1 -->
+
+
+
+                    <!-- start of dropdown list 2 -->
+                <div class="col col-6">
+                    <button class="btn btn-danger dropdown-toggle btn-lg text-capitalize" data-bs-toggle="dropdown">click here to see the list </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#" class="dropdown-item">link 1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item disabled">link 2</a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <a href="#" class="dropdown-item">link 3</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item active">link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><br><br>
+
+
+        <!-- start of Collapce -->
+
+
+        <div class="accordion" id="accordion1">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1"></h2>
+                <button type="button" class="accordion-button text-capitalize h4" data-bs-toggle="collapse" data-bs-target="#collapse1">Accordion Item #1 </button>
+                <div id="collapse1" class="accordion-collapse collapse show">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi repudiandae omnis sint ea nostrum voluptate, voluptates, laborum ratione molestias nobis alias praesentium earum cumque incidunt quia. Animi, fugit? Rem, sapiente?</p>
+                </div>
+            </div><br><br>
+
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <h5 class="accordion-header"></h5>
+                <button type="button" class="accordion-button" data-bs-target="#collapse2" data-bs-toggle="collapse">Accordion item #2</button> 
+                <div id="collapse2" class="accordion-collapse collapse hide">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quas neque asperiores ipsum at! Odit alias dolor numquam saepe expedita rerum delectus porro?
+                </div>
+            </div>
+
+        </div><br><br>
+
+
+    </div>
+<br><br>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
