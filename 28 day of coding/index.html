@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>28 day of coding</title>
+</head>
+<body>
+    <p class="text-center text-capitalize text-danger h5">Today i learning about forms</p>
+    <div class="container" style="border: 1px solid blue;"><br>
+        <form class="form-group was-validated">
+            <!-- start of row 1 -->
+            <div class="row">
+                <div class="col col-6">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter your Username" required>
+                </div>
+                <div class="col col-6">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" name="username" id="username" placeholder="Enter your Password"><br><br>
+                </div>
+            </div>
+            <!-- end of row 1 -->
+
+            <!-- start of row 2 -->
+            <div class="row">
+                <div class="col col-6">
+                    <label for="Name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name " required>
+                </div>
+                <div class="col col-6">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+            </div><br>
+            <!-- end of row 2 -->
+            <br>
+            <div class="row">
+                <div class="col col-6">
+                    <label for="Fathername" class="form-label">Fathername</label>
+                    <input type="text" class="form-control" name="Fathername" required minlength="8">
+                    <div class="valid-feedback">vaild</div>
+                    <div class="invalid-feedback">invalid</div>
+                </div>
+                <div class="col-6">
+                    <label for="Age" class="form-label">Age</label>
+                    <input type="text" class="form-control" name="age" minlength="6" required>
+                    <div class="valid-feedback">valid</div>
+                    <div class="invalid-feedback">invalid</div>
+                </div>
+            </div>
+            <div class="form-check">
+                <label for="Gender" class="form-check-label" style="margin-left: 50px;">Select your Passion</label><br><br>
+                <!-- row 3 -->
+                <div class="row">
+                    <div class="col col-2">
+                        
+                        <label for="Programmer" class="form-check-label">Programmer</label>
+                        <input type="checkbox" id="Programmer" name="Programmer" class="form-check-input">
+
+                    </div>
+                    <div class="col col-2">
+                        <label for="Designer" class="form-check-label">Designer</label>
+                        <input type="checkbox" class="form-check-input" id="Designer" name="Designer">
+                    </div>
+                </div><br><br><br>
+                <!-- row 3 end -->
+                
+                
+
+                <p class="text-capitalize" style="margin-left: 50px;">Select your Gender</p>
+                <div class="form-check">
+
+                    <!-- start of row 4 -->
+                    <div class="row">
+                        <div class="col col-2">
+                            <label for="Male" class="form-check-label">Male</label>
+                            <input type="radio" class="form-check-input" id="Male" name="Gender">
+                        </div>
+                        <div class="col col-2">
+                            <label for="Female" class="form-check-label">Female</label>
+                            <input type="radio" class="form-check-input" id="Female" name="Gender">
+                        </div>
+                    </div><br>
+                    <!-- end of row 4 -->
+
+
+                </div>
+            </div>
+           <button type="submit" class="btn btn-outline-primary" value="Submit">Submit</button>
+           <br><br>
+
+
+
+        </form>
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
