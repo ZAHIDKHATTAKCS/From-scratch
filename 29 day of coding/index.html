@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+
+<!-- to use the bootstrap icons you must add the bootstrap icons link you have to include it from the website just copy the CDN link and paste it here -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Caruosel in bootstrap</title>
+</head>
+<body class="bg-light">
+    <!-- start of carousel -->
+    <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel34">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-slide-to="0" data-bs-target="#carousel34"></button>
+                
+                <button type="button" data-bs-slide-to="1" data-bs-target="#carousel34" class="active"></button>
+                
+                <button type="button" data-bs-slide-to="2" data-bs-target="#carousel34"></button>
+            </div>
+            <div class="carousel-inner" >
+                <div class="carousel-item">
+                    <img src="includes/images/pc2.jpg" class="img-fluid" style="width: 500px;">
+                </div>
+                <div class="carousel-item active">
+                    <img src="includes/images/laptop.jpg" class="img-fluid bg-light" style="width: 500px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="includes/images/pc.jpg" class="img-fluid" width="500px">
+    
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel34"><span class="carousel-control-prev-icon bg-success"></span></button>
+                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel34"><span class="carousel-control-next-icon bg-danger"></span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- start of Icons -->
+    <div class="container mt-5 bg-success p-4">
+        <i class="bi bi-laptop" style="font-size: 40px;"></i>
+        <i class="bi bi-wifi" style="font-size: 40px;"></i>
+        <i class="bi bi-phone" style="font-size: 40px;"></i>
+        <i class="bi bi-mouse" style="font-size: 40px;"></i>
+        <i class="bi bi-pc" style="font-size: 40px;"></i>
+        <i class="bi bi-alarm" style="font-size: 40px;"></i>
+    </div>
+    <!-- end of icons -->
+
+    <!-- start of Bootstrap Utilities -->
+    <!-- 
+        m-4 mean margin from all side
+        ms-3 mean margin from start
+        me-3 mean margin from end
+        mt-3 mean margin from top
+        mb-2 mean meargin from bottom
+        
+        same as for padding
+        p-4 mean padding from all side
+        ps-3 mean padding from start
+        pe-3 mean padding from end
+        pt-3 mean padding from top
+        pb-2 mean padding from bottom
+
+        same as for font size
+        fs-2 
+        fs-3
+        .
+        .
+        fs-6
+
+        same as for width
+        w-25 mean to give the 25% of width to the div p etc 
+        w-100 mean to give full width to div, paragraph etc.
+        
+        same as for height
+        h-24 mean to give the 24% of height to anything
+        h-100 mean to give full height
+
+        now Gatters , gatters are used to give the gape in between divs , headings, paragraphs etc.
+
+        now borders
+        border class is used for add border to the content
+        border border-5 mean to give full width of border
+        border-top is used only to give border at the top only
+        border-end is used to give the border at end only
+        
+        now border colors
+        border border-success 
+        border border-danger etc
+        rounded 
+        rounded-pill
+
+        now shadows
+        shadow-sm for small shadow we can give it to headings, paragraphs etc
+        shadow-lg for give large shadow to content
+        shadow-none no shadow
+
+        now font-weight
+        fw-bold
+        fw-bolder
+        fw-normal
+        fw-lighter
+        fw-italic
+         
+        now colors
+        text-primary
+        text-warning
+        text-info
+        text-dark-20 mean to give the colors with value it become light dark
+        text-info-10 mean to give the light info color to the text
+
+        now text decoration
+        text-decoration-underline   to decorate the text
+        text-decoration-linethrough
+        text-decoration-none
+
+        for text alignment
+        text-start mean to float the text to start
+        text-center mean to float the text to center
+        text-end mean to float the text to the end
+
+        text transform
+        text-lowercase to change the text to lowercase
+        text-uppercase to change the text to uppercase
+        text-capitalize mean to capitalize the text
+
+        visible and invisible
+
+        d-none d-flex-sm mean not display by default and display it in small screen
+        d-flex d-none-sm mean to display by default but not display in small screen
+
+
+
+     -->
+
+
+
+     <p class="fw-italic shadow-lg"><span class="text-danger-20">i am</span> <span class="text-warning
+        ">zahid khattak</span></p>
+    <div class="bg-warning m-5 p-3 border border-success rounded-pill">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At optio quas laboriosam et deleniti reprehenderit quia, placeat nisi repudiandae. Nam soluta repellat possimus voluptates illum maiores voluptas dolor reiciendis perspiciatis!
+
+    </div>
+
+    <div class="bg-light text-danger border-top border-danger border-4">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, laborum.
+    </div>
+
+    <h2 class="float-center ">zahidkhattak</h2>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
