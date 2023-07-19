@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            margin: 0 auto;
+            padding: 50px1;
+            color: white;
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: olivedrab;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">This is the simple Calculator in JavaScript</h1>
+        <br><br>
+        <script>
+
+            var num1 = prompt("Enter your first number");
+            num1 = parseInt(num1, 10);
+            var num2 = prompt("Enter your Second Number");
+            num2 = parseInt(num2, 10);
+
+            var add = num2 + num2;
+            document.write("Addition of two numbers is =" + add + "<br>");
+
+            var sub = num1 - num2;
+            document.write("Subtraction of two numbers is =" + sub + "<br>");
+
+            var mult = num1 * num2;
+            document.write("The multiplication of two numbers is =" + mult + "<br>");
+
+            var division = num1 / num2;
+            document.write("The division of to numbers is =" + division + "<br>");
+        </script>
+
+    </div>
+</body>
+
+</html>
